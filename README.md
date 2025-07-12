@@ -27,4 +27,4 @@ I will eventually write the next part of this which will involve how feasible it
 # Conclusion
 While it is possible to implement rollback in FM2K through various means, the question more becomes if it’s worth the time and effort? Would people really want to spend upwards of 16 months on this project? Only time will tell. I personally expect 100% compatibility as typical rollback only rolls back logic and variables. I will be keeping a close eye on these developments and will test to the fullest extent if it ever gets released as anything noteworthy. The baseline system I have talked about in this document is going to be the machine for my tests, if it runs poorly, it is not ready for the poverty area of the fighting game community.
 
-If there's anything I've missed, be sure to leave an (issue)[https://github.com/windowslogic/fm2k-rollback-issues/issues]
+If there's anything I've missed, be sure to leave an [issue](https://github.com/windowslogic/fm2k-rollback-issues/issues)
