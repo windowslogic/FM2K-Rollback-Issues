@@ -7,6 +7,8 @@ Some FM2K games have different files associated with them, like in the case of F
 
 Fighting is Magic: Tribute Edition-style builds have the stages in one file which is about 500 MB, up to 800 MB if you’re talking about the later games. This can pose an issue for writing entire game save states on the fly due to the memory allocation that the engine is pushing. Heavy optimisation would be needed. Much less if logic only.
 # Let’s talk about saving the ENTIRE game state, graphics and sounds included, everything in memory at once.
+
+Some FM2K games use custom extensions which also need to be taken into account without reverse engineering the systems they are a part of.
 ## Simulation Overhead & State Management
 Rollback netcode requires each game to simulate multiple frames which can cause high CPU usage in older CPUs, my personal baseline for optimisation is the Intel Core i5-3320M from 2012. In addition, storing a history of game states can introduce more CPU usage and memory usage. Especially if saving the entire logic, graphics and sound.
 ## Memory Consumption
